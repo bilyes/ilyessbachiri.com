@@ -1,0 +1,100 @@
+<section id="resume" class="grey-section">
+
+    <div class="row section-intro">
+        <div class="col-twelve">
+
+            <h5>Resume</h5>
+            <h1>More of my credentials.</h1>
+
+            <p class="lead">
+            Here's a timeline of my most recent work experiences and educational achievements.
+            If you're interested in what I did earlier than what's listed below,
+            feel free to get in touch.
+            </p>
+
+        </div>   		
+    </div> <!-- /section-intro--> 
+
+    <div class="row resume-timeline">
+
+        <div class="col-twelve resume-header">
+
+            <h2>Work Experience</h2>
+
+        </div> <!-- /resume-header -->
+
+        <div class="col-twelve">
+
+            <div class="timeline-wrap">
+                {{ range .Site.Data.resume.Employment }}
+                <div class="timeline-block">
+
+                    <div class="timeline-ico">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-header">
+                        <h3>{{ .Title }}</h3>
+                        <p>{{ .Started }} - {{ .Ended }}</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>{{ .Entity }}</h4>
+                        <p>
+                            {{ range .Details }}
+                            <h6>{{ .Team }}</h6>
+                            <ul>
+                                {{ range .Summary }}
+                                <li>{{ . }}</li>
+                                {{ end }}
+                            </ul>
+                            {{ end }}
+                        </p>
+                    </div>
+                </div> <!-- /timeline-block -->
+                {{ end }}
+
+            </div> <!-- /timeline-wrap -->   			
+
+        </div> <!-- /col-twelve -->
+
+    </div> <!-- /resume-timeline -->
+
+    <div class="row resume-timeline">
+
+        <div class="col-twelve resume-header">
+
+            <h2>Education</h2>
+
+        </div> <!-- /resume-header -->
+
+        <div class="col-twelve">
+
+            <div class="timeline-wrap">
+
+                {{ range .Site.Data.resume.Education }}
+                <div class="timeline-block">
+
+                    <div class="timeline-ico">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="timeline-header">
+                        <h3>{{ .Degree }}</h3>
+                        <h5>{{ .Major }}</h5>
+                        <p>{{ .Started }} - {{ .Ended }}</p>
+                    </div>
+
+                    <div class="timeline-content">
+                        <h4>{{ .Entity }}</h4>
+                        <p>{{ .Summary | safeHTML }}</p>
+                    </div>
+
+                </div> <!-- /timeline-block -->
+                {{ end }}
+
+            </div> <!-- /timeline-wrap -->   			
+
+        </div> <!-- /col-twelve -->
+
+    </div> <!-- /resume-timeline -->
+
+</section> <!-- /features -->
