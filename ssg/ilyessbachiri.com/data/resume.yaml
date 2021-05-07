@@ -1,0 +1,74 @@
+Employment:
+  - Entity: Sonder
+    Title: Senior Software Engineer
+    Started: Nov. 2019
+    Ended: Present
+    Details:
+      - Team: Platform
+        Summary:
+          - Doing a variety of Platform-y projects like Kubernetes migration, extending the cluster with custom operators, and building core applications and libraries used by multiple services.
+      - Team: Revenue and Payment
+        Summary:
+          - Design and build an invoicing system to automatically generate and communicate receipts to customers
+          - Redesign revenue-specific data models to increase their robustness and improve financial data accuracy
+  - Entity: SSENSE
+    Title: Senior Software Engineer / Tech Lead
+    Started: May 2017
+    Ended: Nov. 2019
+    Details:
+      - Team: Acquisition and Localization
+        Summary:
+          - Localize the website in China by introducing Chinese support and conforming to various Chinese government regulations
+          - Improve the SEO performance of the website
+          - Maintain the applications that support translation processes
+          - Support and facilitate the integration with affiliate marketing partners
+      - Team: Search
+        Summary:
+          - Rebuild the search service in OOP (Typescript / Elasticsearch)
+          - Contribute to rewriting the monolithic application that serves the website into multiple micro services 
+  - Entity: Playster
+    Title: Lead Software Engineer
+    Started: Aug. 2015
+    Ended: May 2017
+    Details:
+      - Team: Activity tracking and third party reporting
+        Summary:
+          - Design, implement and develop the reporting system that generates custom consumption reports, verifies their accuracy, and delivers them to content providers and licensors
+          - Maintain the in-house tracking system, and develop new tracking features mainly used for Business Intelligence analysis 
+Education:
+  - Entity: Université Laval
+    Degree: Master Degree
+    Major: Computer Science
+    Started: Sept. 2013
+    Ended: Aug. 2015
+    Summary: |
+      As part of my research I looked into the problem of combinatorial optimization,
+      especially combined with a powerful node ordering heuristic. The use case of my
+      applied research was the problem of the scheduling of wood planning. My work
+      leveraged machine learning to explore the space of solutions and detect areas
+      where the optimal solution is likely to be encountered. The result of my research
+      was a reinforcement learning based algorithm that solves wood planning scheduling
+      problems considerably faster than the state of the art approach. For more details,
+      check out the publication <a href="https://ieeexplore.ieee.org/abstract/document/7372232" target="_blank">here</a>.
+  - Entity: Université Laval
+    Degree: Bachelor Degree
+    Major: Exchange Program
+    Started: Sept. 2012
+    Ended: Aug. 2013
+    Summary: |
+      I spent the last year of my bachelor program in computer science as an exchange
+      student in Université Laval. There, I got the chance to enroll in a variety of
+      interesting undergraduate as well as graduate level classes. The one that stood
+      out the most is by far "Introduction to Robotics" where I got to build a microcontroller
+      chip, mount it on top of a Roomba-like robot and program it to track and 
+      follow an object using infra-red and camera sensors.
+  - Entity: ENSEM
+    Degree: Bachelor Degree
+    Major: Computer Science
+    Started: Sept. 2010
+    Ended: Aug. 2012
+    Summary: |
+      During my bachelor program I learned the fundamentals of computer science,
+      from low level concepts around electronics and networking to high level courses
+      like algorithms and software engineering and some theoretical subjects
+      in between like state machines, compilation, and game theory.
