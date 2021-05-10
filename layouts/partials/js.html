@@ -1,4 +1,4 @@
-{{ $scripts := slice "js/modernizr.js" "js/pace.min.js" "js/jquery-2.1.3.min.js" }}
+{{ $scripts := slice "js/modernizr.js" "js/pace.min.js" "js/jquery-3.6.0.min.js" }}
 {{ range $scripts }}
     {{ $js := resources.Get . }}
     <script src="{{ $js.Permalink }}"></script>
