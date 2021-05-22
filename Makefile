@@ -1,8 +1,11 @@
+BRANCH := gh-pages
+FOLDER := public
+
 all: prepare build deploy clean
 
 prepare: clean
 	echo "Adding the work tree"
-	git worktree add public gh-pages
+	git worktree add $(FOLDER) $(BRANCH)
 
 build:
 	echo "Building"
@@ -11,12 +14,12 @@ build:
 
 deploy:
 	echo "Deploying"
-	cd public && \
+	cd $(FOLDER) && \
 	git add --all && \
 	git commit -m "Deploy" && \
-	git push origin gh-pages
+	git push origin $(BRANCH)
 
 clean:
 	echo "Cleaning"
-	git worktree remove public
-	rm -rf public
+	git worktree remove $(FOLDER)
+	rm -rf $(FOLDER)
