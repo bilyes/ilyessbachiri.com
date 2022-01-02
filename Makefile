@@ -21,5 +21,5 @@ deploy:
 
 clean:
 	echo "Cleaning"
-	git worktree remove $(FOLDER)
+	git worktree remove --force $(FOLDER)
 	rm -rf $(FOLDER)
