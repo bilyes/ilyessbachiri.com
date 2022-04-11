@@ -1,12 +1,21 @@
 Employment:
   - Entity: Sonder
-    Title: Senior Software Engineer
-    Started: Nov. 2019
+    Title: Staff Software Engineer
+    Started: Apr. 2022
     Ended: Present
     Details:
       - Team: Platform
         Summary:
-          - Doing a variety of Platform-y projects like Kubernetes migration, extending the cluster with custom operators, and building core applications and libraries used by multiple services.
+          - Lead the development of a comprehensive and high-level User Communication Platform
+  - Entity: Sonder
+    Title: Senior Software Engineer
+    Started: Nov. 2019
+    Ended: Apr. 2022
+    Details:
+      - Team: Platform
+        Summary:
+          - Contibute to the migration to Kubernetes from Heroku, extending the cluster with custom operators, and building core applications and libraries used by multiple services.
+          - Design and rollout a global Audit system to capture audit trails across the entire ecosystem
       - Team: Revenue and Payment
         Summary:
           - Design and build an invoicing system to automatically generate and communicate receipts to customers
@@ -42,7 +51,7 @@ Education:
     Started: Sept. 2013
     Ended: Aug. 2015
     Summary: |
-      As part of my research I looked into the problem of combinatorial optimization,
+      As part of my research, I looked into the problem of combinatorial optimization,
       especially combined with a powerful node ordering heuristic. The use case of my
       applied research was the problem of the scheduling of wood planning. My work
       leveraged machine learning to explore the space of solutions and detect areas
