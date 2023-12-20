@@ -9,7 +9,7 @@ prepare: clean
 
 build:
 	echo "Building"
-	hugo -D
+	hugo
 	sed  -i '/meta name="generator"/d' public/index.html
 
 deploy:

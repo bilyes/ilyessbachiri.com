@@ -6,7 +6,13 @@ Employment:
     Details:
       - Team: Platform
         Summary:
+          - Lead the migration to a new in-house system leveraging the GraphQL Federation and
+            build tools to facilitate the transition
           - Lead the development of a comprehensive and high-level User Communication Platform
+          - Contribute to the implementation of a self-serve asynchronous
+            communication system, and drive its adoption
+          - Design and develop a cloud-native DNS management service to automatically manage
+            records for deployed applications
   - Entity: Sonder
     Title: Senior Software Engineer
     Started: Nov. 2019
